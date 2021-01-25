@@ -20,7 +20,7 @@ class sql extends PDO
     {
         foreach ($parameters as $key => $value) {
 
-            $statement->bindParam($key, $value);
+            $statement->bindParam( $key, $value);
         }
     }
 
